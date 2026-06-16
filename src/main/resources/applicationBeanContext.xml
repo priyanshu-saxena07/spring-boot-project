@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<!--    <bean id="MyBean" class="com.example.config.GreetingService" />-->
+
+    <bean id="EmailNotificationService" class="com.example.coupling.EmailNotificationService"/>
+    <bean id="SMSNotificationService" class="com.example.coupling.SMSNotificationService"/>
+    <bean id="UserServiceEmail" class="com.example.coupling.UserService">
+        <property name="notificationService" ref="EmailNotificationService" />
+    </bean>
+
+    <bean id="UserServiceSMS" class="com.example.coupling.UserService">
+<!--        <property name="notificationService" ref="SMSNotificationService" />-->
+        <constructor-arg ref="SMSNotificationService" />
+    </bean>
+
+</beans>
