@@ -1,4 +1,4 @@
-package com.example.coupling;
+package com.example.looseCoupling;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

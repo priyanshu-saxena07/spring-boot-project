@@ -1,5 +1,6 @@
-package com.example.coupling;
+package com.example.looseCoupling;
 
 public interface NotificationService {
     void send(String message);
+
 }
