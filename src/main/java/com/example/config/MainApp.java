@@ -1,7 +1,5 @@
-package com.example.demo;
+package com.example.config;
 
-import com.example.config.AppConfig;
-import com.example.config.GreetingService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
