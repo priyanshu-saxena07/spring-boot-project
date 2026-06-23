@@ -45,13 +45,13 @@ My practical journey from Core Java to building secure backend applications.
 * **Robust REST APIs:** Clean endpoints using proper HTTP methods (GET, POST, PUT, DELETE).
 * **Stateless Auth:** Secure user registration/login returning JWT tokens.
 * **Security Filters:** Intercepting incoming requests to validate tokens on the fly.
-* **Clean Code:** Managed object life cycles cleanly using `@Autowired` and `@Service`.
+* **Clean Code:** Managed object life cycles cleanly using @Autowired and @Service.
 
 ---
 
 ### 🎯 Future Upgrades
-- [ ] **Global Exception Handling:** Using `@ControllerAdvice` for graceful errors.
-- [ ] **Data Validation:** Using `jakarta.validation` to secure MySQL inputs.
+- [ ] **Global Exception Handling:** Using @ControllerAdvice for graceful errors.
+- [ ] **Data Validation:** Using jakarta.validation to secure MySQL inputs.
 - [ ] **Unit Testing:** Writing robust test cases using JUnit and Mockito.
 
 ---
@@ -60,4 +60,7 @@ My practical journey from Core Java to building secure backend applications.
 * **Main Practice Log:** [java-learning-project](https://github.com)
 * **LinkedIn:** [Priyanshu Saxena](https://www.linkedin.com/in/priyanshu-saxena-034708404)
 
-*Consistency over everything. Keep coding!* 💻🔥
+---
+
+_Consistency over everything. Keep coding! 💻🔥_
+
