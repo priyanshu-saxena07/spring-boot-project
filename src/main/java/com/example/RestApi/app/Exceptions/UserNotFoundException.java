@@ -1,4 +1,4 @@
-package com.example.RestApl.app.Exceptions;
+package com.example.RestApi.app.Exceptions;
 
 public class UserNotFoundException extends RuntimeException {
     public UserNotFoundException(String message) {

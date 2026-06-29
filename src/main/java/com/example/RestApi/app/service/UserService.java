@@ -22,5 +22,27 @@ public class UserService {
     public User getUserById(int id) {
         return userDb.get(id);
     }
+
+    public User updateUser(int id, User updateUser) {
+        if (userDb.containsKey(id)) {
+            User existingUser = userDb.get(id);
+            existingUser.setName(updateUser.getName());
+            existingUser.setEmail(updateUser.getEmail());
+
+            userDb.put(id, existingUser);
+            return existingUser;
+        }
+        return null;
+    }
+
+    public boolean deleteUser(int id) {
+        if (userDb.containsKey(id)) {
+            userDb.remove(id);
+            return true;
+        }
+        return false;
+
+    }
+
 }
 

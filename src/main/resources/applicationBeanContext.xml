@@ -7,13 +7,13 @@
     <!-- bean definitions here -->
 <!--    <bean id="MyBean" class="com.example.config.GreetingService" />-->
 
-    <bean id="EmailNotificationService" class="com.example.coupling.EmailNotificationService"/>
-    <bean id="SMSNotificationService" class="com.example.coupling.SMSNotificationService"/>
-    <bean id="UserServiceEmail" class="com.example.coupling.UserService">
+    <bean id="EmailNotificationService" class="com.example.looseCoupling.EmailNotificationService"/>
+    <bean id="SMSNotificationService" class="com.example.looseCoupling.SMSNotificationService"/>
+    <bean id="UserServiceEmail" class="com.example.looseCoupling.UserService">
         <property name="notificationService" ref="EmailNotificationService" />
     </bean>
 
-    <bean id="UserServiceSMS" class="com.example.coupling.UserService">
+    <bean id="UserServiceSMS" class="com.example.looseCoupling.UserService">
 <!--        <property name="notificationService" ref="SMSNotificationService" />-->
         <constructor-arg ref="SMSNotificationService" />
     </bean>

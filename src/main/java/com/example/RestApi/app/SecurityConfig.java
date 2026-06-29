@@ -1,4 +1,4 @@
-package com.example.RestApl.app;
+package com.example.RestApi.app;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.example.RestApl.app.Exceptions;
+package com.example.RestApi.app.Exceptions;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

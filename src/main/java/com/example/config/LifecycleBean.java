@@ -1,6 +1,6 @@
 package com.example.config;
 
-import com.example.coupling.NotificationService;
+import com.example.looseCoupling.NotificationService;
 
 
 public class LifecycleBean {
