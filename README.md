@@ -4,15 +4,18 @@ My practical journey from Core Java to building secure backend applications.
 
 ---
 
-### 👤 About Me
-* **Background:** B.Com graduate transitioning into a Backend Developer.
-* **The Grind:** Coded 11+ hours daily to master the Spring Boot ecosystem.
-* **My Goal:** Proving that absolute dedication can crack complex tech architectures.
-* **Philosophy:** No copy-pasting tutorials. Focus deeply on framework internals.
+### 📌 Professional Profile
+
+- **Background:** B.Com graduate transitioning into an enterprise-level Backend Developer.
+- **Commitment:** Dedicating 10 hours daily to master the Spring Boot ecosystem and 
+- Java backend architectures.
+- **My Goal:** Proving that absolute dedication and disciplined learning can crack complex technical systems.
+- **Philosophy:** Writing clean, decoupled code without relying on copy-pasted tutorial blocks.
 
 ---
 
-### 💻 About This Project
+### ⚙️ Core Architecture & Implementation
+
 * **The Leap:** Moving from console programs to production-ready frameworks.
 * **Architecture:** Industry-standard Layered/MVC (Controller -> Service -> Repository).
 * **Rest APIs:** Built end-to-end structured endpoints with JSON flows.
@@ -37,7 +40,7 @@ My practical journey from Core Java to building secure backend applications.
 * Tested all endpoints thoroughly using Postman.
 * Import my complete API Collection using the button below:
 
-[![Run in Postman](https://pstmn.io)](YOUR_POSTMAN_PUBLIC_LINK_HERE)
+[![Run in Postman](https://priyanshusaxena76056-5901705.postman.co/workspace/Priyanshu-Saxena's-Workspace~0231505a-8e71-46c7-8f66-4489510425dc/collection/54074927-d9535fec-968c-446f-bfb3-1e341e2ed6dd?action=share&source=copy-link&creator=54074927)
 
 ---
 
